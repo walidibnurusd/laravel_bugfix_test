@@ -17,16 +17,4 @@ terjadi pada modul *Patient Management* (pendaftaran & listing pasien) dalam sis
 6. Buat commit terpisah per bug yang Anda perbaiki dan jelaskan perbaikannya di pesan commit.
 7. Kirim URL repo atau ZIP hasil perbaikan ke tim rekrutmen paling lambat 24 jam setelah menerima tes.
 
-## Bug Checklist (disembunyikan untuk kandidat)
-- Namespace/`use` salah → **PatientController**
-- Tidak `use` Model → **PatientController**
-- Validation kosong
-- Mass assignment tidak dilindungi
-- Route salah method
-- Blade lupa `@csrf`
-- Query builder ambil kolom salah
-- Migration tipe data keliru
-- Seeder tidak dipanggil
-- View pakai variable undefined
-
 *Selamat mengerjakan!*
